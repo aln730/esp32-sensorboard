@@ -4351,6 +4351,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 154.94) (xy 128.27 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4473788f-9447-48d7-a370-d907c6813c1f")
+	)
+	(wire
+		(pts
 			(xy 179.07 88.9) (xy 186.69 88.9)
 		)
 		(stroke
@@ -4448,6 +4458,16 @@
 			(type default)
 		)
 		(uuid "64719939-a292-4e1b-a6df-44211a96fd4d")
+	)
+	(wire
+		(pts
+			(xy 121.92 170.18) (xy 129.54 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a1f82ea-7296-4516-a8f3-f40f77abf047")
 	)
 	(wire
 		(pts
@@ -4979,6 +4999,16 @@
 		)
 		(uuid "f8a02350-5954-41b0-8452-f2c14386d9a6")
 	)
+	(wire
+		(pts
+			(xy 121.92 162.56) (xy 128.27 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa1ebe43-fb24-49e3-b79c-c04ec1b2fdc3")
+	)
 	(label "+5V_USB"
 		(at 179.07 92.71 0)
 		(effects
@@ -4988,6 +5018,16 @@
 			(justify left bottom)
 		)
 		(uuid "0c557876-ed74-4434-8cfe-1f99c349097e")
+	)
+	(label "VBUS"
+		(at 129.54 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10f74061-73af-4ba4-a12d-eac7d8676cc3")
 	)
 	(label "+5V_USB"
 		(at 241.3 66.04 0)
@@ -5028,6 +5068,26 @@
 			(justify left bottom)
 		)
 		(uuid "7bfdccd4-8f67-4f80-86fa-194dfe4d6f12")
+	)
+	(label "USB_DP"
+		(at 128.27 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80d7598c-2781-4229-95cb-a28d206f268a")
+	)
+	(label "USB_DN"
+		(at 128.27 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f7782e9-4a07-4119-89e9-f02d988787ea")
 	)
 	(label "USB_DN"
 		(at 81.28 40.64 0)
@@ -7594,10 +7654,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "cffa67fe-9b62-45b2-8ddd-12fb0044d075")
+			(uuid "cffa67fe-9b62-45b2-8ddd-12fb0044d076")
 		)
 		(pin "1"
-			(uuid "c8903489-11fe-46e1-b762-dbe8cde02d8d")
+			(uuid "c8903489-11fe-46e1-b762-dbe8cde02d8e")
 		)
 		(instances
 			(project ""
@@ -7864,10 +7924,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd6db00e-f1a3-4825-b37c-bead401a40e4")
+			(uuid "fd6db00e-f1a3-4825-b37c-bead401a40e5")
 		)
 		(pin "2"
-			(uuid "e13a2869-b713-42ee-9900-232174f1c198")
+			(uuid "e13a2869-b713-42ee-9900-232174f1c199")
 		)
 		(instances
 			(project ""
@@ -8962,6 +9022,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USB_DN" input
+			(at 121.92 154.94 0)
+			(uuid "c618181e-33c4-4c87-95d2-d328668da293")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" input
+			(at 121.92 162.56 0)
+			(uuid "03f2f831-b0a2-4b04-8e4f-7bc7e2e5984c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS" input
+			(at 121.92 170.18 0)
+			(uuid "4acd06e4-87c5-4c0d-b176-956e1f39e32d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
